@@ -1,0 +1,94 @@
+/* CSS Document */
+/*清空浏览器默认样式*/
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{margin:0; padding:0; border:0; list-style:none;}
+/*全局控制*/
+body{
+	font-family:Arial, Helvetica, sans-serif,"宋体";
+    font-size:16px;
+}
+a:link,a:visited{text-decoration:none; color:#999;}
+a:hover{color:#F30;}
+
+#bg{
+	width:1024px;
+	height:768px;
+	margin:0 auto;
+	background-color:#efefef;
+}
+
+.logo{
+	width:900px;
+	height:70px;
+	margin:0 auto;
+	background-color:#38b593;
+	margin-top:25px;
+	padding-top:30px;
+}
+.logo h1{
+	width:282px;
+	height:35px;
+	margin:0 auto;
+	background:url(images/logo.png) no-repeat;
+}
+.content{
+	width:880px;
+	height:480px;
+	margin:0 auto;
+	background-color:#eeecec;
+	margin-top:10px;
+	border:10px solid #fff;
+}
+.content_border{
+	width:870px;
+	height:470px;
+	border:5px solid #eeecec;
+}
+.content_1{
+	width:870px;
+	height:55px;
+	background:url
+	url(../images/bg.png) repeat-x;
+}
+.content_1 p{
+	height:55px;
+	color:#666;
+	font-size:24px;
+	line-height:55px;
+	font-family:"微软雅黑";
+	background:url
+	url(../images/jia.png) no-repeat left center;
+	padding-left:45px;
+	margin-left:60px;
+}
+.content_2{
+	width:404px;
+	margin:0 auto;
+}
+.icon_1,.icon_2,.icon_3{
+	width:350px;
+	height:39px;
+	line-height:39px;
+	color:#999;
+	font-size:16px;
+	font-weight:600;
+	background:#faf9f9 url(../images/icon1.png) no-repeat 10px center;
+	padding-left:50px; border:2px solid #7f9db9; margin-top:30px;}
+.icon_2{ background:#faf9f9 url(../images/icon2.png) no-repeat 10px center;}
+.icon_3{ background:#faf9f9 url(../images/icon3.png) no-repeat 10px center;}
+.btn{
+	width:400px;
+	height:39px; 
+	background-color:#53c2a2;
+	padding-left:30px; 
+	font-size:18px;
+	color:#FFF;
+	border:2px solid #7f9db9;
+	margin-top:30px;
+	text-align:center;
+} 
+
+
+  
+   
+   
+               
